@@ -3,12 +3,13 @@
   padding: 5px;
   margin: 5px;
   text-align: center;
+  background-color: #fcfdf7;
 }
 
 header div {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 header div img {
   max-height: 50px;
@@ -26,4 +27,22 @@ button {
   max-height: 90px;
   min-width: 200px;
   border-radius: 7px;
+  font-family: "Noto Sans Japanese";
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #384166;
+  color: #fcfdf7;
+  border-color: #fcfdf7;
+}
+
+.login {
+  background-color: #fcfdf7;
+  border-color: #384166;
+  color: #384166;
+  max-height: 90px;
+  min-width: 200px;
+  border-radius: 7px;
+  font-family: "Noto Sans Japanese";
+  font-size: 30px;
+  font-weight: bold;
 }
