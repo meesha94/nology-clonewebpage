@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@500&family=Roboto:wght@500&display=swap");
+* {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+header div img {
+  max-height: 50px;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+}
+nav div img {
+  max-height: 150px;
+}
+
+button {
+  max-height: 90px;
+  min-width: 200px;
+  border-radius: 7px;
+}
