@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@500&family=Roboto:wght@500&display=swap');
-
-$font-headings:"Roboto", sans-serif;
+$font-headings:"Poppins";
+$font-subheadings: "Roboto";
 $font-main: "Monteserrat";
 $font-button: "Noto Sans Japanese";
 
@@ -72,13 +71,38 @@ h1 {
     font-family: $font-headings;
     color: $color-secondary;
     font-size: 40px;
+    font-weight: bolder;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
     padding-left: 100px;
     padding-right: 100px;
+    
 }
 
+h2 {
+    font-family: $font-subheadings;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: $color-primary;
+    font-weight: lighter;
+}
+h3 {
+    font-family: $font-subheadings;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-bottom: 60px;
+    color: $color-secondary;
+}
 
+h4{
 
+}
 @media only screen and (min-width: 768px) {
     
     * {
