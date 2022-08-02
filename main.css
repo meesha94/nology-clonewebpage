@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@500&family=Roboto:wght@500&display=swap");
 * {
-  padding: 5px;
   margin: 5px;
   text-align: center;
   background-color: #fcfdf7;
@@ -12,7 +11,7 @@ header div {
   padding-bottom: 25px;
 }
 header div img {
-  max-height: 50px;
+  max-height: 30px;
 }
 
 nav div {
@@ -24,7 +23,7 @@ nav div img {
 }
 
 button {
-  max-height: 90px;
+  max-height: 80px;
   min-width: 200px;
   border-radius: 7px;
   font-family: "Noto Sans Japanese";
@@ -39,10 +38,26 @@ button {
   background-color: #fcfdf7;
   border-color: #384166;
   color: #384166;
-  max-height: 90px;
+  max-height: 80px;
   min-width: 200px;
   border-radius: 7px;
   font-family: "Noto Sans Japanese";
   font-size: 30px;
   font-weight: bold;
+  margin-top: 25px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #1db8f1;
+  font-size: 40px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    display: none;
+  }
 }

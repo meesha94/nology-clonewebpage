@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@500&family=Roboto:wght@500&display=swap');
 
 $font-headings:"Roboto", sans-serif;
@@ -11,8 +13,10 @@ $color-primary:#384166;
 $color-secondary: #1db8f1;
 $color-background-secondary: #fffcdd;
 
+
+
+
 * {
-    padding: 5px;
     margin: 5px;
     text-align: center;
     background-color: $color-background;
@@ -24,10 +28,10 @@ header div {
     justify-content: space-between;
     padding-bottom: 25px;
 
- img{
-     max-height: 50px;
+    img{
+        max-height: 30px;
      
-}
+    }
 }
 
 nav div {
@@ -40,7 +44,7 @@ nav div {
 }
     
 button {
-        max-height: 90px;
+        max-height: 80px;
         min-width: 200px;
         border-radius: 7px;
         font-family: $font-button;
@@ -49,19 +53,35 @@ button {
         background-color: $color-primary;
         color: $color-background;
         border-color: $color-background;
-        
-
-    }
+}
 
 .login {
         background-color: $color-background;
         border-color: $color-primary ;
         color: $color-primary;
-        max-height: 90px;
+        max-height: 80px;
         min-width: 200px;
         border-radius: 7px;
         font-family: $font-button;
         font-size: 30px;
         font-weight: bold;
-        
+        margin-top: 25px;
+}
+
+h1 {
+    font-family: $font-headings;
+    color: $color-secondary;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    * {
+        display: none;
+    }
 }
