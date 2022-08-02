@@ -23,15 +23,16 @@ nav div img {
 }
 
 button {
-  max-height: 80px;
-  min-width: 200px;
-  border-radius: 7px;
+  max-height: 100px;
+  min-width: 350px;
+  border-radius: 10px;
   font-family: "Noto Sans Japanese";
   font-size: 30px;
   font-weight: bold;
   background-color: #384166;
   color: #fcfdf7;
   border-color: #fcfdf7;
+  padding: 20px;
 }
 
 .login {
@@ -78,6 +79,25 @@ h3 {
   font-weight: lighter;
   padding-bottom: 60px;
   color: #1db8f1;
+}
+
+h4 {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: lighter;
+  color: #384166;
+  padding-bottom: 60px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+h5 {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: lighter;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  color: #384166;
 }
 
 @media only screen and (min-width: 768px) {
