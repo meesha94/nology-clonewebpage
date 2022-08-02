@@ -16,7 +16,7 @@ $color-background-secondary: #fffcdd;
 
 
 * {
-    margin: 5px;
+    
     text-align: center;
     background-color: $color-background;
 }
@@ -145,7 +145,24 @@ section {
     }
 }
 
+footer {
+    background-color: $color-background-secondary;
+    padding: 10px;
 
+        ul {
+            background-color: $color-background-secondary;
+        }
+
+        li {
+            background-color: $color-background-secondary;
+            font-family: $font-headings;
+            font-size: 30px;
+            padding: 18px;
+            color: $color-primary;
+            list-style: none;
+        }
+}
+ 
 
 
 @media only screen and (min-width: 768px) {

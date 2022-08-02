@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
 * {
-  margin: 5px;
   text-align: center;
   background-color: #fcfdf7;
 }
@@ -117,6 +116,22 @@ section img {
 }
 section .heading::first-line {
   font-weight: bold;
+}
+
+footer {
+  background-color: #fffcdd;
+  padding: 10px;
+}
+footer ul {
+  background-color: #fffcdd;
+}
+footer li {
+  background-color: #fffcdd;
+  font-family: "Poppins";
+  font-size: 30px;
+  padding: 18px;
+  color: #384166;
+  list-style: none;
 }
 
 @media only screen and (min-width: 768px) {
