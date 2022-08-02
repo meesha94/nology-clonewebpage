@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
 $font-headings:"Poppins";
 $font-subheadings: "Roboto";
-$font-main: "Monteserrat";
+$font-main: "Monteserrat", sans-serif;
 $font-button: "Noto Sans Japanese";
 
 
@@ -53,8 +53,12 @@ button {
         color: $color-background;
         border-color: $color-background;
         padding: 20px;
-        
 }
+
+.signup {
+     margin-bottom: 150px;
+}
+
 
 .login {
         background-color: $color-background;
@@ -120,6 +124,27 @@ h5 {
     padding-bottom: 90px;
     color: $color-primary;
 }
+
+section {
+    font-family: $font-main;
+    font-size: 27px;
+    color: $color-primary;
+    line-height: 1.7;
+    display: flex;
+    align-items: center;
+   
+
+
+
+    img {
+            max-height: 300px;
+        }
+
+    .heading::first-line {
+        font-weight: bold;
+    }
+}
+
 
 
 

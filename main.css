@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
 * {
   margin: 5px;
   text-align: center;
@@ -33,6 +33,10 @@ button {
   color: #fcfdf7;
   border-color: #fcfdf7;
   padding: 20px;
+}
+
+.signup {
+  margin-bottom: 150px;
 }
 
 .login {
@@ -98,6 +102,21 @@ h5 {
   padding-top: 100px;
   padding-bottom: 90px;
   color: #384166;
+}
+
+section {
+  font-family: "Monteserrat", sans-serif;
+  font-size: 27px;
+  color: #384166;
+  line-height: 1.7;
+  display: flex;
+  align-items: center;
+}
+section img {
+  max-height: 300px;
+}
+section .heading::first-line {
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {
